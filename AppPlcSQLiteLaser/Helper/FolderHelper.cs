@@ -8,27 +8,6 @@ namespace AppPlcSQLiteLaser
 {
     class FolderHelper
     {
-        struct ProductData
-        {
-
-            public int ProductId;
-            public string ProductCode;
-            public string TestedByUserName;
-            public string TesterName;
-            public string TypeOfTest;
-	        public string FixtureName;
-            public string PCBA_PartNumber;
-            public string CommercialReference;
-            public string CavityLaserMark;
-            public string TestedResult;
-            public DateTime TestedDate;
-	        public int LaserMarkedResult;
-            public DateTime LaserMarkedDate;
-	        public string EUI64;
-            public string InstallCode;
-            public string EUI64WithSpace;
-            public string InstallCodeWithSpace;
-        }
         public static string Folder
         {
             get

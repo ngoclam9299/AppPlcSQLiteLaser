@@ -78,11 +78,11 @@ namespace AppPlcSQLiteLaser
                         break;
                     case "VScrollBar":
                         VScrollBar vscr = child as VScrollBar;
-                        vscr.Value = (int)GetSetting(app_name, child.Name, vscr.Value);
+                        //vscr.Value = (int)GetSetting(app_name, child.Name, vscr.Value);
                         break;
                     case "HScrollBar":
                         HScrollBar hscr = child as HScrollBar;
-                        hscr.Value = (int)GetSetting(app_name, child.Name, hscr.Value);
+                        //hscr.Value = (int)GetSetting(app_name, child.Name, hscr.Value);
                         break;
                     case "NumericUpDown":
                         NumericUpDown nud = child as NumericUpDown;

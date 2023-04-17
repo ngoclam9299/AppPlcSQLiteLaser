@@ -5,37 +5,44 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 using System.Text;
+using System.Windows.Forms;
 
 namespace AppPlcSQLiteLaser
 {
     class FolderText
     {
-        DateTime DateTimeNow = DateTime.Now; // lay thoi gian hien tai cua may tinh dang chay
-        public void CreNewFolder(string sPath,string tConten)
+        public void ReadSysConfig()
         {
-            string[] _Id = tConten.Split('/');
-            // 1. Đường dẫn tới thư mục cần tạo New Directory
-            string directoryPath = sPath;
-            directoryPath += "/" + DateTimeNow.Year;
-            directoryPath += "/" + DateTimeNow.Month;
-            directoryPath += "/" + DateTimeNow.Day;
-            //directoryPath += "/" + _Id[0] + ".txt";
-
-            // 2.Khai báo một thể hiện của lớp DirectoryInfo
+            string[] _Conten;
+            string directoryPath = System.IO.Path.GetDirectoryName(Application.ExecutablePath);
+            //directoryPath += "/config.txt";
             DirectoryInfo directory = new DirectoryInfo(directoryPath);
-
-            // Kiểm tra thư mục chưa tồn tại mới sử dụng phương thức tạo
             if (!directory.Exists)
             {
-                // 3.Sử dụng phương thức Create để tạo thư mục.
-                directory.Create();
-                File.WriteAllText(directoryPath + "/" + _Id[0] + ".txt", _Id[0]);
-                File.WriteAllLines(directoryPath + "/" + _Id[0] + ".txt", _Id);
+                MessageBox.Show("Không tìm Thấy file Config.txt", "Cảnh báo", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
             }
             else
-                File.WriteAllText(directoryPath + "/" + _Id[0] + ".txt", _Id[0]);
-                File.WriteAllLines(directoryPath + "/" + _Id[0] + ".txt", _Id);
-
+            {
+                _Conten = File.ReadAllLines(directoryPath+ "/config.txt");
+                if(_Conten[0].StartsWith("Ip="))
+                {
+                    string Ip = _Conten[0].Substring(3);
+                    Console.WriteLine(Ip);
+                }
+                else
+                {
+                    MessageBox.Show("Chư điền thông tin IP", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+                if (_Conten[1].StartsWith("Ping="))
+                {
+                    string RegisPing = _Conten[1].Substring(5);
+                    Console.WriteLine(RegisPing);
+                }
+                else
+                {
+                    MessageBox.Show("Chư điền thông tin thanh ghi", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+            }
         }
     }
 }

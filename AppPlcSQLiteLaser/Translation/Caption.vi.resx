@@ -117,160 +117,139 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="btnChangePassword" xml:space="preserve">
-    <value>Đổi mật khẩu</value>
+  <data name="btnBrowseSqliteExe" xml:space="preserve">
+    <value>Chọn DB</value>
   </data>
-  <data name="btnExportData" xml:space="preserve">
-    <value>Trích xuất dữ liệu</value>
+  <data name="btnCheck" xml:space="preserve">
+    <value>Kiểm Tra</value>
   </data>
-  <data name="btnLogon" xml:space="preserve">
-    <value>Đăng nhập</value>
+  <data name="btnOpenSqlite" xml:space="preserve">
+    <value>Mở SQLite</value>
   </data>
-  <data name="btnManualCheck" xml:space="preserve">
-    <value>Kiểm tra</value>
+  <data name="btnRefresh" xml:space="preserve">
+    <value>Mới</value>
   </data>
   <data name="btnSave" xml:space="preserve">
     <value>Lưu</value>
   </data>
-  <data name="btnSetting" xml:space="preserve">
-    <value>Cấu hình</value>
+  <data name="btnSearch" xml:space="preserve">
+    <value>Tìm</value>
   </data>
-  <data name="capError" xml:space="preserve">
-    <value>Lỗi</value>
+  <data name="chbDisScanner" xml:space="preserve">
+    <value>Bỏ Qua Tay Quét:</value>
   </data>
-  <data name="capInfo" xml:space="preserve">
-    <value>Thông tin</value>
-  </data>
-  <data name="gbAdmin" xml:space="preserve">
-    <value>Tài khoản quản trị</value>
+  <data name="gbData" xml:space="preserve">
+    <value>Dữ liệu:</value>
   </data>
   <data name="gbFolder" xml:space="preserve">
-    <value>Thư mục chứa dữ liệu kiểm thử</value>
-  </data>
-  <data name="gbInfo" xml:space="preserve">
-    <value>Thông tin:</value>
+    <value>Máy Chủ Chứa Thông Tin Kiểm Tra:</value>
   </data>
   <data name="gbProcess" xml:space="preserve">
-    <value>Khắc sản phẩm:</value>
+    <value>Khắc Sản Phẩm:</value>
   </data>
-  <data name="gbProduct" xml:space="preserve">
-    <value>Tình trạng sản phẩm:</value>
+  <data name="gbProduct1" xml:space="preserve">
+    <value>Sản Phẩm 1:</value>
+  </data>
+  <data name="gbProduct2" xml:space="preserve">
+    <value>Sản Phẩm 2:</value>
   </data>
   <data name="gbScan" xml:space="preserve">
-    <value>Quét sản phẩm</value>
+    <value>Tay Quét Sản Phẩm:</value>
   </data>
-  <data name="gbSystem" xml:space="preserve">
-    <value>Thông tin hệ thống:</value>
+  <data name="gbSqliteBrowser" xml:space="preserve">
+    <value>Kết Nối SQLite:</value>
+  </data>
+  <data name="gbSQLiteSearch" xml:space="preserve">
+    <value>Tìm Kiếm:</value>
+  </data>
+  <data name="gbSysConfig" xml:space="preserve">
+    <value>Cấu Hình Hệ Thống:</value>
   </data>
   <data name="gbTest" xml:space="preserve">
-    <value>Kiểm tra sản phẩm:</value>
+    <value>Kiểm Tra Sản Phẩm:</value>
   </data>
-  <data name="lblCheckedDate" xml:space="preserve">
-    <value>Ngày kiểm:</value>
+  <data name="lbCommercialRef" xml:space="preserve">
+    <value>Mã Thương Mại:</value>
   </data>
-  <data name="lblCheckedStatus" xml:space="preserve">
-    <value>Trạng thái:</value>
+  <data name="lbComPort" xml:space="preserve">
+    <value>Cổng Kết Nối:</value>
   </data>
-  <data name="lblConfirmPassword" xml:space="preserve">
-    <value>Xác nhận mật khẩu:</value>
+  <data name="lbDatabase" xml:space="preserve">
+    <value>Database:</value>
   </data>
-  <data name="lblFailed" xml:space="preserve">
-    <value>Không đạt</value>
+  <data name="lbFixtureName" xml:space="preserve">
+    <value>Tên Cố Định:</value>
+  </data>
+  <data name="lbLaserMarkResult" xml:space="preserve">
+    <value>KQ Khắc:</value>
   </data>
   <data name="lblFolder" xml:space="preserve">
-    <value>Thư mục chứa dữ liệu kiểm thử:</value>
-  </data>
-  <data name="lblFolderStatus" xml:space="preserve">
-    <value>Trạng thái:</value>
-  </data>
-  <data name="lblLanguage" xml:space="preserve">
-    <value>Ngôn ngữ:</value>
-  </data>
-  <data name="lblLatestProcessedProduceCode" xml:space="preserve">
-    <value>Mã sản phẩm vừa mới khắc:</value>
+    <value>Trạng Thái Máy Chủ:</value>
   </data>
   <data name="lblLatestTestedProduceCode" xml:space="preserve">
-    <value>Sản phẩm vừa mới kiểm thử:</value>
+    <value>Sản Phẩm Vừa Kiểm:</value>
   </data>
   <data name="lblLatestTestedStatus" xml:space="preserve">
-    <value>Kết quả:</value>
+    <value>Kết Quả Vừa Kiểm</value>
   </data>
-  <data name="lblNewPassword" xml:space="preserve">
-    <value>Mật khẩu mới:</value>
+  <data name="lbMarking" xml:space="preserve">
+    <value>Thanh Ghi Khắc :</value>
   </data>
-  <data name="lblPassed" xml:space="preserve">
-    <value>Đạt</value>
+  <data name="lbMarkMode" xml:space="preserve">
+    <value>Thanh Ghi Chế độ:</value>
   </data>
-  <data name="lblPassword" xml:space="preserve">
-    <value>Mật khẩu:</value>
+  <data name="lbPCBAParNumber" xml:space="preserve">
+    <value>Số PCBA:</value>
   </data>
-  <data name="lblProcessedDate" xml:space="preserve">
-    <value>Ngày khắc:</value>
+  <data name="lbPing" xml:space="preserve">
+    <value>Thanh Ghi Ping :</value>
   </data>
-  <data name="lblProductCode" xml:space="preserve">
-    <value>Mã sản phẩm:</value>
+  <data name="lbProductCode" xml:space="preserve">
+    <value>Mã Sản Phẩm:</value>
   </data>
-  <data name="lblServer" xml:space="preserve">
-    <value>Máy chủ chứa dữ liệu khắc:</value>
+  <data name="lbREUI1" xml:space="preserve">
+    <value>Thanh Ghi Đầu EUI1 :</value>
   </data>
-  <data name="lblServerStatus" xml:space="preserve">
+  <data name="lbREUI2" xml:space="preserve">
+    <value>Thanh Ghi Đầu EUI2 :</value>
+  </data>
+  <data name="lbRInstallCode1" xml:space="preserve">
+    <value>Thanh Ghi Đầu InstallCode1 :</value>
+  </data>
+  <data name="lbRInstallCode2" xml:space="preserve">
+    <value>Thanh Ghi Đầu InstallCode2 :</value>
+  </data>
+  <data name="lbRProductCode1" xml:space="preserve">
+    <value>Thanh Ghi Đầu ProductCode1 :</value>
+  </data>
+  <data name="lbRProductCode2" xml:space="preserve">
+    <value>Thanh Ghi Đầu ProductCode2 :</value>
+  </data>
+  <data name="lbScanProductCode" xml:space="preserve">
+    <value>Quét Sản phẩm</value>
+  </data>
+  <data name="lbSttDB" xml:space="preserve">
     <value>Trạng thái:</value>
   </data>
-  <data name="lblTotalTestedFailedToday" xml:space="preserve">
-    <value>Tổng sản phẩm kiểm thử không đạt hôm nay:</value>
+  <data name="lbSttPLC" xml:space="preserve">
+    <value>Thanh Ghi TT PLC :</value>
   </data>
-  <data name="lblTotalTestedPassedToday" xml:space="preserve">
-    <value>Tổng sản phẩm kiểm thử đạt hôm nay:</value>
+  <data name="lbTableData" xml:space="preserve">
+    <value>Bảng:</value>
   </data>
-  <data name="lblUserName" xml:space="preserve">
-    <value>Tên tài khoản:</value>
+  <data name="lbTestedByUserName" xml:space="preserve">
+    <value>Người Kiểm Tra:</value>
   </data>
-  <data name="msgCheckConnection" xml:space="preserve">
-    <value>Kiểm tra kết nối...</value>
+  <data name="lbTestedResult" xml:space="preserve">
+    <value>KQ Kiểm Tra:</value>
   </data>
-  <data name="msgConfirmPassword" xml:space="preserve">
-    <value>Mật khẩu mới và mật khẩu xác nhận phải giống nhau</value>
+  <data name="lbTesterName" xml:space="preserve">
+    <value>Máy Kiểm Tra:</value>
   </data>
-  <data name="msgFolderNotAvailable" xml:space="preserve">
-    <value>Không thể kết nối thư mục</value>
+  <data name="lbTypeOfTest" xml:space="preserve">
+    <value>Loại Sản Phẩm:</value>
   </data>
-  <data name="msgInitServer" xml:space="preserve">
-    <value>Khởi tạo máy chủ chứa dữ liệu khắc...</value>
-  </data>
-  <data name="msgInvalidUsernameAndPassword" xml:space="preserve">
-    <value>Tài khoản và mật khẩu không hợp lệ</value>
-  </data>
-  <data name="msgNoData" xml:space="preserve">
-    <value>Không có dữ liệu!</value>
-  </data>
-  <data name="msgProductAlreadyProcessed" xml:space="preserve">
-    <value>Sản phẩm đã được khắc, không thể khắc lại</value>
-  </data>
-  <data name="msgProductCanBeProcessed" xml:space="preserve">
-    <value>Kết quả kiểm thử đạt, sản phẩm có thể được khắc</value>
-  </data>
-  <data name="msgProductNotTested" xml:space="preserve">
-    <value>Sản phẩm chưa được kiểm thử</value>
-  </data>
-  <data name="msgProductTestedFailed" xml:space="preserve">
-    <value>Kết quả kiểm thử thất bại, sản phẩm không thể được khắc</value>
-  </data>
-  <data name="msgRunning" xml:space="preserve">
-    <value>Đang chạy</value>
-  </data>
-  <data name="msgSaveSuccess" xml:space="preserve">
-    <value>Lưu thành công</value>
-  </data>
-  <data name="msgServerNotAvailable" xml:space="preserve">
-    <value>Không thể kết nối máy chủ chứa dữ liệu khắc!</value>
-  </data>
-  <data name="msgStopped" xml:space="preserve">
-    <value>Đã dừng</value>
-  </data>
-  <data name="rdbManual" xml:space="preserve">
-    <value>Tự nhập mã sản phẩm</value>
-  </data>
-  <data name="rdbScanner" xml:space="preserve">
-    <value>Quét với scanner</value>
+  <data name="lbWriteProductCode" xml:space="preserve">
+    <value>Nhập Sản Phẩm:</value>
   </data>
 </root>

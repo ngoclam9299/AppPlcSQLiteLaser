@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frLogin));
             this.gbInfo = new System.Windows.Forms.GroupBox();
             this.chbShowPass = new System.Windows.Forms.CheckBox();
             this.btnLogon = new System.Windows.Forms.Button();
@@ -126,6 +127,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(145)))), ((int)(((byte)(54)))));
             this.ClientSize = new System.Drawing.Size(406, 158);
             this.Controls.Add(this.gbInfo);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frLogin";
             this.Text = "frLogin";
             this.Load += new System.EventHandler(this.frLogin_Load);

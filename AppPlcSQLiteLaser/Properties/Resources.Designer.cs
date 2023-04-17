@@ -59,25 +59,5 @@ namespace AppPlcSQLiteLaser.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Flag_of_Vietnam_svg {
-            get {
-                object obj = ResourceManager.GetObject("Flag_of_Vietnam.svg", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap la_co_vuong_quoc_anh {
-            get {
-                object obj = ResourceManager.GetObject("la-co-vuong-quoc-anh", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
     }
 }

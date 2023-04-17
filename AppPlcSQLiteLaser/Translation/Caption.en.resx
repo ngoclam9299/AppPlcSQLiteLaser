@@ -117,160 +117,139 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="btnChangePassword" xml:space="preserve">
-    <value>Change password</value>
+  <data name="btnBrowseSqliteExe" xml:space="preserve">
+    <value>Select DB</value>
   </data>
-  <data name="btnExportData" xml:space="preserve">
-    <value>Export Data</value>
-  </data>
-  <data name="btnLogon" xml:space="preserve">
-    <value>Logon</value>
-  </data>
-  <data name="btnManualCheck" xml:space="preserve">
+  <data name="btnCheck" xml:space="preserve">
     <value>Check</value>
+  </data>
+  <data name="btnOpenSqlite" xml:space="preserve">
+    <value>OpenSQLite</value>
+  </data>
+  <data name="btnRefresh" xml:space="preserve">
+    <value>Refresh</value>
   </data>
   <data name="btnSave" xml:space="preserve">
     <value>Save</value>
   </data>
-  <data name="btnSetting" xml:space="preserve">
-    <value>Configure</value>
+  <data name="btnSearch" xml:space="preserve">
+    <value>Search</value>
   </data>
-  <data name="capError" xml:space="preserve">
-    <value>Error</value>
+  <data name="chbDisScanner" xml:space="preserve">
+    <value>Disabled Scanner</value>
   </data>
-  <data name="capInfo" xml:space="preserve">
-    <value>Info</value>
-  </data>
-  <data name="gbAdmin" xml:space="preserve">
-    <value>Admin account</value>
+  <data name="gbData" xml:space="preserve">
+    <value>Data:</value>
   </data>
   <data name="gbFolder" xml:space="preserve">
-    <value>Folder contains tested result</value>
-  </data>
-  <data name="gbInfo" xml:space="preserve">
-    <value>Information:</value>
+    <value>Host Server:</value>
   </data>
   <data name="gbProcess" xml:space="preserve">
-    <value>Process product:</value>
+    <value>Marking Product:</value>
   </data>
-  <data name="gbProduct" xml:space="preserve">
-    <value>Product status:</value>
+  <data name="gbProduct1" xml:space="preserve">
+    <value>Product 1:</value>
+  </data>
+  <data name="gbProduct2" xml:space="preserve">
+    <value>Product 2:</value>
   </data>
   <data name="gbScan" xml:space="preserve">
-    <value>Scan Product</value>
+    <value>Scanner:</value>
   </data>
-  <data name="gbSystem" xml:space="preserve">
-    <value>System information:</value>
+  <data name="gbSqliteBrowser" xml:space="preserve">
+    <value>DB SQlite Connect:</value>
+  </data>
+  <data name="gbSQLiteSearch" xml:space="preserve">
+    <value>SQLite Search:</value>
+  </data>
+  <data name="gbSysConfig" xml:space="preserve">
+    <value>System Config:</value>
   </data>
   <data name="gbTest" xml:space="preserve">
-    <value>Test product:</value>
+    <value>Check Product:</value>
   </data>
-  <data name="lblCheckedDate" xml:space="preserve">
-    <value>Tested date:</value>
+  <data name="lbCommercialRef" xml:space="preserve">
+    <value>CommercialReference:</value>
   </data>
-  <data name="lblCheckedStatus" xml:space="preserve">
-    <value>Tested status:</value>
+  <data name="lbComPort" xml:space="preserve">
+    <value>COM Port:</value>
   </data>
-  <data name="lblConfirmPassword" xml:space="preserve">
-    <value>Confirm password:</value>
+  <data name="lbDatabase" xml:space="preserve">
+    <value>Database:</value>
   </data>
-  <data name="lblFailed" xml:space="preserve">
-    <value>Failed</value>
+  <data name="lbFixtureName" xml:space="preserve">
+    <value>Fixture Name:</value>
+  </data>
+  <data name="lbLaserMarkResult" xml:space="preserve">
+    <value>Laser Mark Result:</value>
   </data>
   <data name="lblFolder" xml:space="preserve">
-    <value>Folder contains tested result:</value>
-  </data>
-  <data name="lblFolderStatus" xml:space="preserve">
-    <value>Status:</value>
-  </data>
-  <data name="lblLanguage" xml:space="preserve">
-    <value>Language:</value>
-  </data>
-  <data name="lblLatestProcessedProduceCode" xml:space="preserve">
-    <value>Latest processed product code:</value>
+    <value>Host Server:</value>
   </data>
   <data name="lblLatestTestedProduceCode" xml:space="preserve">
-    <value>Latest tested product:</value>
+    <value>Last Tested Product:</value>
   </data>
   <data name="lblLatestTestedStatus" xml:space="preserve">
-    <value>Result:</value>
+    <value>Last Result Product:</value>
   </data>
-  <data name="lblNewPassword" xml:space="preserve">
-    <value>New password:</value>
+  <data name="lbMarking" xml:space="preserve">
+    <value>Marking Register:</value>
   </data>
-  <data name="lblPassed" xml:space="preserve">
-    <value>Passed</value>
+  <data name="lbMarkMode" xml:space="preserve">
+    <value>Marking Mode Register:</value>
   </data>
-  <data name="lblPassword" xml:space="preserve">
-    <value>Password:</value>
+  <data name="lbPCBAParNumber" xml:space="preserve">
+    <value>PCBA Par Number:</value>
   </data>
-  <data name="lblProcessedDate" xml:space="preserve">
-    <value>Processed date:</value>
+  <data name="lbPing" xml:space="preserve">
+    <value>Ping Register:</value>
   </data>
-  <data name="lblProductCode" xml:space="preserve">
-    <value>Product code:</value>
+  <data name="lbProductCode" xml:space="preserve">
+    <value>Product Code:</value>
   </data>
-  <data name="lblServer" xml:space="preserve">
-    <value>Server contains processed result:</value>
+  <data name="lbREUI1" xml:space="preserve">
+    <value>Start Register EUI1:</value>
   </data>
-  <data name="lblServerStatus" xml:space="preserve">
-    <value>Status</value>
+  <data name="lbREUI2" xml:space="preserve">
+    <value>Start Register EUI2:</value>
   </data>
-  <data name="lblTotalTestedFailedToday" xml:space="preserve">
-    <value>Total failed tested product today:</value>
+  <data name="lbRInstallCode1" xml:space="preserve">
+    <value>Start Register InstallCode1:</value>
   </data>
-  <data name="lblTotalTestedPassedToday" xml:space="preserve">
-    <value>Total passed tested product today:</value>
+  <data name="lbRInstallCode2" xml:space="preserve">
+    <value>Start Register InstallCode2:</value>
   </data>
-  <data name="lblUserName" xml:space="preserve">
-    <value>Username:</value>
+  <data name="lbRProductCode1" xml:space="preserve">
+    <value>Start Register ProductCode 1:</value>
   </data>
-  <data name="msgCheckConnection" xml:space="preserve">
-    <value>Checking connection...</value>
+  <data name="lbRProductCode2" xml:space="preserve">
+    <value>Start Register ProductCode 2:</value>
   </data>
-  <data name="msgConfirmPassword" xml:space="preserve">
-    <value>New password and confirmed password must be the same</value>
+  <data name="lbScanProductCode" xml:space="preserve">
+    <value>Scan Product Code:</value>
   </data>
-  <data name="msgFolderNotAvailable" xml:space="preserve">
-    <value>Folder is not available</value>
+  <data name="lbSttDB" xml:space="preserve">
+    <value>DB Status:</value>
   </data>
-  <data name="msgInitServer" xml:space="preserve">
-    <value>Initialize server contains processed result...</value>
+  <data name="lbSttPLC" xml:space="preserve">
+    <value>Stt PLC Register:</value>
   </data>
-  <data name="msgInvalidUsernameAndPassword" xml:space="preserve">
-    <value>Invalid username and password</value>
+  <data name="lbTableData" xml:space="preserve">
+    <value>Table DB:</value>
   </data>
-  <data name="msgNoData" xml:space="preserve">
-    <value>No data!</value>
+  <data name="lbTestedByUserName" xml:space="preserve">
+    <value>Tested By UserName:</value>
   </data>
-  <data name="msgProductAlreadyProcessed" xml:space="preserve">
-    <value>Product was already processed, cannot process again</value>
+  <data name="lbTestedResult" xml:space="preserve">
+    <value>Tested Result:</value>
   </data>
-  <data name="msgProductCanBeProcessed" xml:space="preserve">
-    <value>Tested result is passed, product can be processed</value>
+  <data name="lbTesterName" xml:space="preserve">
+    <value>Tester Name:</value>
   </data>
-  <data name="msgProductNotTested" xml:space="preserve">
-    <value>Product is not tested</value>
+  <data name="lbTypeOfTest" xml:space="preserve">
+    <value>Type Of Test:</value>
   </data>
-  <data name="msgProductTestedFailed" xml:space="preserve">
-    <value>The tested result is failed, product cannot be processed</value>
-  </data>
-  <data name="msgRunning" xml:space="preserve">
-    <value>Running</value>
-  </data>
-  <data name="msgSaveSuccess" xml:space="preserve">
-    <value>Save successfully</value>
-  </data>
-  <data name="msgServerNotAvailable" xml:space="preserve">
-    <value>Cannot connect server contains processed result!</value>
-  </data>
-  <data name="msgStopped" xml:space="preserve">
-    <value>Stopped</value>
-  </data>
-  <data name="rdbManual" xml:space="preserve">
-    <value>Input product code manually</value>
-  </data>
-  <data name="rdbScanner" xml:space="preserve">
-    <value>Scan with scanner</value>
+  <data name="lbWriteProductCode" xml:space="preserve">
+    <value>Write Product Code:</value>
   </data>
 </root>
